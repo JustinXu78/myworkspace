@@ -76,6 +76,31 @@ class Dog extends Pets{
 	}
 	
 }
+
+class Rabbit extends Pets{
+	private String Sport;
+
+	public Rabbit(String name, int price, String sport) {
+		super(name, price);
+		Sport = sport;
+	}
+
+	public String getSport() {
+		return Sport;
+	}
+
+	public void setSport(String sport) {
+		Sport = sport;
+	}
+
+	@Override
+	public void like() {
+		// TODO Auto-generated method stub
+		System.out.println("name: " + getName() +"  price: "+getPrice()+"  like: " + getSport());
+	}
+	
+	
+}
 public class PolDemo03 {
 
 	/**
@@ -83,9 +108,10 @@ public class PolDemo03 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Pets[] pets = new Pets[2];
+		Pets[] pets = new Pets[3];
 		pets[0] = new Cat("Kitty",20,"fish");
 		pets[1] = new Dog("Geoge", 30, "car");
+		pets[2] = new Rabbit("Kate", 5, "Jump puddle");
 		for (int i = 0; i < pets.length; i++) {
 			pets[i].like();
 		}
