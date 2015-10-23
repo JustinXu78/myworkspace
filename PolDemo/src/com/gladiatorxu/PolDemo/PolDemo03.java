@@ -107,7 +107,7 @@ public class PolDemo03 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// This is a program for pets
 		Pets[] pets = new Pets[3];
 		pets[0] = new Cat("Kitty",20,"fish");
 		pets[1] = new Dog("Geoge", 30, "car");
