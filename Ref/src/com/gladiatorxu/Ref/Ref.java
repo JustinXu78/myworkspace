@@ -22,6 +22,7 @@ public class Ref {
 //		a="Angel";
 		tell2(a);
 		System.out.println(a);
+		System.out.println(a);
 	}
 	
 	public static void tell(Ref1 rf2){
