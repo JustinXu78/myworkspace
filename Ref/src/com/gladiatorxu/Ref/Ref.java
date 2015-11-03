@@ -25,6 +25,7 @@ public class Ref {
 		System.out.println(a);
 		System.out.println(a);
 		System.out.println("hello java");
+		System.out.println("hello java again");
 	}
 	
 	public static void tell(Ref1 rf2){
